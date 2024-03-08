@@ -1,33 +1,73 @@
 #email{
-width:20px ;
+    inline-size:20px ;
 }
 
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 #phone1{
-width: 20px;
+    width: 20px;
 }
 #buttons{
     display: flex;
     gap: 80px;
+    margin-bottom: 30px;
     justify-content: center;
-
+    border: none;
+    
 }
 #boxes{
     width: 25%;
 }
 
-#logos{
+#firstimg{
+    width: 100%;;
+    height: 530px;
+
+}
+
+#movin1{
+   width: 95%;
+}
+
+#flowimage{
+   overla 
+}
+
+#movn2{
+   width:95%;
+}
+
+#movn3{
+   width: 95%;
+}
+
+
+ #phone{
+  float: inline-end; 
+}
+
+.testimonies{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr; 
+}
+
+#topbar{
     
+    border: 2px;
 }
 
 
 #movg{
     display: grid;
-    color: white;
     font-weight: bold;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
+    color: white;
     background-color: orangered;
     height: 100px;
-    text-align: center;
+    
 }
 
 
@@ -47,16 +87,12 @@ width: 20px;
         color:white;
         }
 
-
 .body{
     margin-left: 20%;
     margin-right: 20%;
 }
 
-#container{
-    border: none;
-   
-}
+
 
 #background{
     margin-left: 25%;
@@ -82,43 +118,13 @@ width: 20px;
 
 }
 
-#smoothmoving{
-background-image: url('Images/boxes.avif');
-background-repeat: no-repeat;
-background-size: cover;
-background-size: 100% 100%;
-column-gap: 30px;
-
-
-width: 1100px;
-height: 600px;
-}
-
-#box{
-    background-image: url('Images/box.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-}
-
-#since2007{
-display: grid;
-grid-template-columns: 1fr 1fr;
-}
-
-#style{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 20%;
-
-}
 
 .img{
     height: 50px;
     width: 50px;
 }
 
-.p1{
+.par{
    text-align: center; 
 }
 
@@ -131,31 +137,30 @@ grid-template-columns: 1fr 1fr;
 }
 
 
-
 #top{
     display: flex;
     justify-content: space-between;
 }
 
+#news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
 #whatwedo{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     -ms-grid-column-align: center;
-
-
 }
 
-#helpingyou{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
 
-#bookUs{
+
+#bookusnow{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 
-background-image: url('Images/move.webp');
+background-image: url('./images/move.webp');
 background-repeat: no-repeat;
 }
 
@@ -163,17 +168,9 @@ background-repeat: no-repeat;
     background-color: orangered;
 }
 
-#blue{
+#form{
     background-color: blue;
 }
-#whattheysay{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-
-
 
 
 #p3{
@@ -182,49 +179,40 @@ background-repeat: no-repeat;
     vertical-align: middle;
 }
 
-#articles{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
 
-}
 
-#one{
-    background-image: url('Images/moving.jpeg');
+#bkone{
+    background-image: url('./images/img8.jpeg');
     background-repeat: no-repeat;
-    vertical-align: bottom;
+    height: 200px;
+    width: 250px;
     
 }
 
-#two{
-    background-image: url('Images/moveimg.jpeg');
-background-repeat: no-repeat;
-vertical-align: bottom;
+#bktwo{
+    background-image: url('./images/img3.webp');
+   background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
 
 }
 
-#three{
-    background-image: url('Images/movers.jpeg');
-background-repeat: no-repeat;
-vertical-align: text-bottom;
-}
-
-
-#footer{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: black;
-    color: white;
+#bkthree{
+    background-image: url('./images/moving3.jpeg');
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
 
 }
 
-.b1{
+
+.b{
     background-color: darkorange;
-    color: antiquewhite;
+    color: white;
     border: none;
-    height: 40px;
+    height: 50px;
 }
 
-@media all and(max-width: 500px){
+@media all and(max-width: 600px){
 
-} 
+}

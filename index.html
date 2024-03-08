@@ -6,40 +6,42 @@
     <title>Moving Services</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin-left: 1%;margin-right: 1%;"
-
->
+<body>
     
     
 <navbar>
 
-
+<div id="topbar">
 <p> hello@riaadarif.com<img id="email" src="./images/email.png"/></p>
 <p>Email address</p>
-
+<div>
 <p><img id="phone1" src="./images/phone.png" ></p>
 <p>+8801714457298</p>
 <p>Phone line</p>
-<div id="buttons">
-<button>HOME +</button>
-<button>ABOUT</button>
-<button>SERVICES +</button>
-<button>PRICING</button>
-<button>OUR GALLERY</button>
-<button>BLOG</button>
-<button>CONTACT</button>
 </div>
 
+
+<div id="buttons">
+<button style="color: orange;border: none;">HOME +</button>
+<button style="border: none;">ABOUT</button>
+<button style="border: none;">SERVICES +</button>
+<button style="border: none;">PRICING</button>
+<button style="border: none;">OUR GALLERY</button>
+<button style="border: none;">BLOG</button>
+<button style="border: none;">CONTACT</button>
+</div>
+</div>
 </navbar>
 
 <section>
 
-<img src="./images/moving1.jpeg" alt="moving image">
+<img  id="firstimg" src="./images/moving1.jpeg" alt="moving image">
+<div id="flowimage">
 <p>SMOOTH MOVING FOR YOUR FAMILY</p>
 <P>Moving strive to </br> Make it Easy.</P>
-<button>GET STARTED</button>
+<button class="b">GET STARTED</button>
+</div>
 </section>
-
 
 <section>
 
@@ -107,7 +109,7 @@
 <br><br>
 <br><br>
 
-<div id="helpingyou">
+<div id="verified">
     <div id="box">
         <div id="background">
 <h3>Helping You every Step of the Way</h3>
@@ -138,18 +140,17 @@
 
 </div>
 
-<p class="p1">Don't hesitate, contact us for help and services.<u style="color: orangered;"> Book online</u></p>
+<p class="par">Don't hesitate, contact us for help and services.<u style="color: orangered;"> Book online</u></p>
 <br>
 <br>
-<br>
-<img src="Images/peoplemoving.jpg" width="1100px">
-<div id="bookUs">
+
+<div id="bookusnow">
 
     <div id="book">
 <h6>BOOK US NOW</h6>
 <p>Request a Free Quote Today</p>
 </div>
-<div id="blue">  
+<div id="form">  
 <label for="movingtype">Moving Type</label>
 <br>
 <input type="text" placeholder="local" required/>
@@ -166,7 +167,7 @@
 <br>
 <br>
 </div>
-<div id="blue">
+<div id="form">
 <label for="date"> Date</label>
 <br>
 <input type="date" required>
@@ -177,47 +178,47 @@
 <input type="number" placeholder="0" required/>
 <br>
 <br>
-<button class="b1">SEND REQUEST</button>
+<button class="b">SEND REQUEST</button>
 </div>
 </div>
 <br>
 <br>
 <br>
 
-<h6 class="p1" style="color: orangered;"><u>OUR TESTIMONIALS</u></h6>
-<h1 class="p1"><b>What They Say</b></h1>
+<h6 class="par" style="color: orangered;"><u>OUR TESTIMONIALS</u></h6>
+<h1 class="par"><b>What They Say</b></h1>
 
-<div id="whattheysay">
+<div class="testimonies">
     <div>
 <img src="./images/quotes.png">
-<p>I was impressed by the moling services, </p>
-<p>larem ipsum is simply free text used by </p>
-<p>copytyping refreshing. Neque parro est qui </p>
-<p>not dolorem ipsum is simply free text</p>
-<p> available in the market qula.</p>
+<p>I was impressed by the moling services, </br>
+larem ipsum is simply free text used by </br>
+copytyping refreshing. Neque parro est qui </br>
+not dolorem ipsum is simply free text</br>
+ available in the market qula.</p>
 <p style="color: orangered;">Christine Rose</p>
 <p>CUSTOMER</p>
 <img src="./images/faceicon.png">
     </div>
     <div>
 <img src="./images/quotes.png">
-<p>I was impressed by the moling services, </p>
-<p>larem ipsum is simply free text used by </p>
-<p>copytyping refreshing. Neque parro est qui </p>
-<p>not dolorem ipsum is simply free text</p>
-<p> available in the market qula.</p>
-<p style="color: orangered;">Christine Rose</p>
+<p>I was impressed by the moling services, </br>
+larem ipsum is simply free text used by </br>
+copytyping refreshing. Neque parro est qui </br>
+not dolorem ipsum is simply free text</br>
+available in the market qula.</br>
+<p style="color: orangered;">Christine Rose</br>
 <p>CUSTOMER</p>
 <img src="./images/faceicon.png">
 </div>
 <div>
 <img src="./images/quotes.png">
-<p>I was impressed by the moling services, </p>
-<p>larem ipsum is simply free text used by </p>
-<p>copytyping refreshing. Neque parro est qui </p>
-<p>not dolorem ipsum is simply free text</p>
-<p> available in the market qula.</p>
-<p style="color: orangered;">Christine Rose</p>
+<p>I was impressed by the moling services, </br>
+larem ipsum is simply free text used by </br>
+copytyping refreshing. Neque parro est qui </br>
+not dolorem ipsum is simply free text</br>
+ available in the market qula.</p>
+<p style="color: orangered;">Christine Rose</br>
 <p>CUSTOMER</p>
 <img src="./images/faceicon.png">
 </div>
@@ -226,8 +227,8 @@
 <br>
 <br>
 
-<h6 class="p1" style="color: orangered;"> <u>NEWSLETTER SIGNUP</u></h6>
-<h1 class="p1"><b>Join For New Updates</b></h1>
+<h5 class="par" style="color: orangered;"> <u>NEWSLETTER SIGNUP</u></h5>
+<h1 class="par"><b>Join For New Updates</b></h1>
 <br>
 <br>
 <div id="style">
@@ -242,24 +243,24 @@
 <br>
 <br>
 
-<h5 class="p1" style="color: orangered;"><u>OUR BLOG</u></h5>
-<h2 class="p1"><b>News & Articles</b></h2>
+<h5 class="par" style="color: orangered;"><u>OUR BLOG</u></h5>
+<h2 class="par"><b>News & Articles</b></h2>
 
-<div id="articles">
-    <div id="one">
-<img src="./images/img8.jpeg">
+<div id="news">
+    <div id="bkone">
+
 <p>Admin Comment (0)</p>
 <p>Our Home </br>Entertainment Has</br> Evolved Significantly</p>
 
 </div>
-<div id="two"> 
-<img src="./images/img3.webp" alt="moving image">
+<div id="bktwo"> 
+
 <p>Admin Content (0)</p>
 <p>Making a Choice</br>Between Moving </br>Companies</p>
 
 </div>
-<div id="three">
-<img src="./images/moving3.jpeg" alt="moving image">
+<div id="bkthree">
+
 <p>Admin Comment (0)</br>Baby Boomer and </br>Empty Nesters on </br>the Move</p>
 <img>
 </div>
@@ -270,7 +271,7 @@
     <p>Helping over 250,000 Movers in the USA</p>
     </div>
     <div id="p3">
-<button>DISCOVER MORE</button>
+<button style="">DISCOVER MORE</button>
 </div>
 </div>
 
