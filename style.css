@@ -1,0 +1,230 @@
+#email{
+width:20px ;
+}
+
+#phone1{
+width: 20px;
+}
+#buttons{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+
+}
+#boxes{
+    width: 25%;
+}
+
+#logos{
+    
+}
+
+
+#movg{
+    display: grid;
+    color: white;
+    font-weight: bold;
+    grid-template-columns: 1fr 1fr;
+    background-color: orangered;
+    height: 100px;
+    text-align: center;
+}
+
+
+#footer{
+
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+}
+#x1{
+    text-align: center; }
+
+    #keep{
+        background-color: blue;
+        color:white;
+        }
+
+
+.body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#container{
+    border: none;
+   
+}
+
+#background{
+    margin-left: 25%;
+    margin-right: 25%;
+      background-color: white;
+      color: black;
+
+}
+#navbar{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.head{
+    background-color: black;
+    height: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+#moving{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#smoothmoving{
+background-image: url('Images/boxes.avif');
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 100% 100%;
+column-gap: 30px;
+
+
+width: 1100px;
+height: 600px;
+}
+
+#box{
+    background-image: url('Images/box.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#since2007{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+#style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20%;
+
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+}
+
+.p1{
+   text-align: center; 
+}
+
+#images{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+
+  text-align: center;
+}
+
+
+
+#top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#whatwedo{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    -ms-grid-column-align: center;
+
+
+}
+
+#helpingyou{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#bookUs{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+background-image: url('Images/move.webp');
+background-repeat: no-repeat;
+}
+
+#book{
+    background-color: orangered;
+}
+
+#blue{
+    background-color: blue;
+}
+#whattheysay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+
+
+#p3{
+   
+    color: white;
+    vertical-align: middle;
+}
+
+#articles{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#one{
+    background-image: url('Images/moving.jpeg');
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    
+}
+
+#two{
+    background-image: url('Images/moveimg.jpeg');
+background-repeat: no-repeat;
+vertical-align: bottom;
+
+}
+
+#three{
+    background-image: url('Images/movers.jpeg');
+background-repeat: no-repeat;
+vertical-align: text-bottom;
+}
+
+
+#footer{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+
+}
+
+.b1{
+    background-color: darkorange;
+    color: antiquewhite;
+    border: none;
+    height: 40px;
+}
+
+@media all and(max-width: 500px){
+
+} 
