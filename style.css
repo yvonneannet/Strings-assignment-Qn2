@@ -26,6 +26,9 @@ body{
     height: 530px;
 
 }
+#logos{
+justify-content: center;
+}
 
 #movin1{
    width: 95%;
@@ -40,6 +43,17 @@ body{
     font-weight: bold;
     
 }
+
+#fourth{
+    float: left;
+}
+
+#sectionss{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+}
+
 
 #overlaytext{
     position: absolute;
