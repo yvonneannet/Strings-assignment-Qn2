@@ -27,7 +27,7 @@ body{
 
 }
 #logos{
-justify-content: center;
+justify-items: center;
 }
 
 #movin1{
@@ -112,6 +112,7 @@ justify-content: center;
     #keep{
         background-color: blue;
         color:white;
+        width: 70%;
         }
 
 .body{
